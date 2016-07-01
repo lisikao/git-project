@@ -49,19 +49,19 @@ void HeapSort(int *a,int size)    //堆排序
 	}
 }
 
-//int main(int argc, char *argv[])
-//{
-//	int a[100];
-//	int size;
-//	while(scanf("%d",&size)==1&&size>0)
-//	{
-//		int i;
-//		for(i=1; i<=size; i++)
-//			scanf("%d",&a[i]);
-//		HeapSort(a,size);
-//		for(i=1; i<=size; i++)
-//			printf("%d ",a[i]);
-//		printf("\n");
-//	}
-//	return 0;
-//}
+int main(int argc, char *argv[])
+{
+	int a[100];
+	int size;
+	while(scanf("%d",&size)==1&&size>0)
+	{
+		int i;
+		for(i=1; i<=size; i++)
+			scanf("%d",&a[i]);
+		HeapSort(a,size);
+		for(i=1; i<=size; i++)
+			printf("%d ",a[i]);
+		printf("\n");
+	}
+	return 0;
+}
