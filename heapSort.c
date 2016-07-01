@@ -49,6 +49,7 @@ void HeapSort(int *a,int size)    //堆排序
 	}
 }
 
+/* 测试版本 */
 int main(int argc, char *argv[])
 {
 	int a[100];
